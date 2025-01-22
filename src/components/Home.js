@@ -41,7 +41,6 @@ function Home() {
       <h1 className="header">User Management Dashboard</h1>
 
       <div className="search-sort-container">
-        {/* Search bar */}
         <input
           type="text"
           placeholder="Search Users by Name"
@@ -49,8 +48,6 @@ function Home() {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
-
-        {/* Sort buttons */}
         <div className="sort-buttons">
           <button
             className="sort-button"
